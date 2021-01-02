@@ -1,0 +1,176 @@
+\documentclass[11pt]{report}
+\usepackage[Lenny]{fncychap}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{amsthm}
+\usepackage{lettrine}
+\usepackage{xcolor}
+\usepackage{float}
+ \numberwithin{equation}{section} %% Comment out for sequentially-numbered
+ \numberwithin{figure}{section} %% Comment out for sequentially-numbered
+ \newtheorem{theo}{Th\'eor\`eme}[section]
+ \newtheorem{defi}[theo]{D\'efinition}
+ \newtheorem{prop}[theo]{Proposition} %%Delete [theo] to re-start numbering
+ \newtheorem{exem}[theo]{Exemple}
+ \newtheorem{exer}[section]{Exercise}%%Delete [section] for sequential numbering
+ \newtheorem{rema}[theo]{Remarque}
+ \newtheorem{lemm}[theo]{Lemme} %%Delete [theo] to re-start numbering
+ \newtheorem{coro}[theo]{Corollaire} %%Delete [theo] to re-start numbering
+\usepackage{fullpage}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[EL]{\thepage}
+\fancyhead[OR]{\thepage}
+\headsep = 20pt
+\begin{document}
+
+\begin{titlepage}
+
+    \begin{center}
+
+\noindent {\large \textbf{Université Abdelmalek Essaâdi
+}} \\
+\vspace*{0.3cm}
+\noindent {\Huge \textbf{Faculté des Sciences }} \\
+\vspace*{1cm}
+\includegraphics[scale=.30]{uu.png}
+\vspace*{1cm}
+
+
+
+
+\noindent \LARGE \textbf{Département d'Informatique}
+\vspace*{.5cm}
+
+
+
+% \noindent \Large \textbf{Filière Licence fondamentale \\ en Sciences Mathématiques et Informatique}
+% \vspace*{1cm}
+
+
+\noindent \Huge \fcolorbox{black}{lightgray}{\textbf{\begin{minipage}{\textwidth} % %\hfill
+\begin{center}
+Application mobile Registre social pour le Maroc
+\end{center}
+%\hfill
+\end{minipage}}} \\
+\vspace*{1cm}
+
+
+\vspace*{0.4cm}
+% \noindent \large {intitulé :}
+
+\vspace*{0.8cm}
+% \noindent {\Large \textbf{Application mobile Carnet médicale }} 
+
+\vspace*{0.3cm}
+\noindent \Large \textbf{Présenté par:} \\ 
+\vspace*{0.2cm}
+\vspace*{0.2cm}
+\textsc{ \item } 
+\textsc{BEN EL HACHMI Fatima Zahrae \item }
+\vspace*{0.2cm}
+\textsc{SUILAH Mohammad \item }
+\vspace*{0.2cm}
+
+\textsc{SARROUKH Ikram \item }
+
+\vspace*{0.2cm}
+\textsc{EL MORABIT Hamza \item }
+
+\vspace*{0.2cm}
+% \noindent \large soutenu le 01 Juillet 2019 devant le Jur
+
+\vspace*{0.5cm}
+\end{center}
+
+
+\noindent \large
+\begin{tabular}{lll}
+
+% Pr. Ismail  \textit{Encadrant} \\
+
+Mr. JELOULLI Ismail    &  Professeur à la Faculté des Sciences - Tétouan & \textit{Encadrant}  \\
+% Mme TRICHNI  Soumia    &  Professeur à la Faculté des Sciences - Rabat & \textit{Examinatrice}
+
+
+\end{tabular}
+
+\vfill
+% \begin{center}
+% Année universitaire 2018-2019
+% \end{center}
+\end{titlepage}
+\sloppy
+
+\titlepage
+
+\newpage
+
+% \include{Remerciements}
+% \newpage
+% \include{Resume}
+
+% \newpage
+
+% \include{Abstract}
+
+\begin{large}
+\tableofcontents
+\end{large}
+
+\newpage
+
+% \listoffigures
+
+
+% \include{Introduction}
+
+\newpage
+
+\include{chap1}
+
+\newpage
+
+\include{chap2}
+
+\newpage
+
+% \include{chap3}
+
+\newpage
+
+% \include{chap4}
+
+\newpage
+
+%\include{conclusion}
+
+\newpage
+
+\begin{thebibliography}{10} % 0 si vous avez moins de 9 références sinon 10
+
+\bibitem{1}
+https://en.wikipedia.org/wiki/Social\_security\_in\_Sweden
+\bibitem{2}
+https//en.wikipedia.org/wiki/Social\_Security\_(United\_States)cite\_note-Social\_Security\_Act\_of\_1935-2
+
+% \bibitem{2}
+% \bibitem{3}
+% https://openclassrooms.com/fr/courses/2023346-creez-des-applications-pour-android
+% \bibitem{4}
+% https://android.developpez.com/cours/
+
+\end{thebibliography}
+
+
+
+
+
+
+\end{document} 
